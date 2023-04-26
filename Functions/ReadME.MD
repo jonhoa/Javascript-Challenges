@@ -9,7 +9,7 @@ addition(2,4);
 
 ### #2. Seven Boom
 Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array. Otherwise, return "there is no 7 in the array".
-``` 
+```javascript 
 sevenBoom([1, 2, 3, 4, 5, 6, 7]) ➞ "Boom!"
 // 7 contains the number seven.
 
