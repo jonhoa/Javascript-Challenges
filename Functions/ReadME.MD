@@ -40,3 +40,7 @@ function sevenBoom(arr) {
 }
 sevenBoom([01, 61, 1, 91, 3])
 ```
+### #3. Create a function that takes a number as an argument, increments the number by +1 and returns the result.
+```javascript
+
+```
