@@ -47,3 +47,44 @@ function addition(num) {
 }
 addition(0)
 ```
+### #4. Tower of Hanoi
+```javascript
+function towerHanoi(discs) {
+  // size of discs with 3 at the bottom
+  size = [1, 2, 3]
+  // poles with first pole[0] holding all discs
+  let poles = [size, 0 , 0]
+  let min = Math.min
+  // test methods
+	console.log(`There are ${discs} discs in the game`)
+  console.log(`There are ${poles.length} poles in the game`)
+console.log(poles)
+  // Moving the discs into the empty poles
+
+ 
+  for(i = size.length; i >= 0; i--) {
+  // Checking if poles are empty
+    if(poles[i - 1] == 0) {
+      console.log(`pole ${i} is empty`)
+  // if empty move smallest disc to furthest pole..if poles[2](0) is less than 1 then move 1 to poles[2]
+      if(poles[i-1] < min(...poles[0])) {
+         poles[i - 1] = poles[0].splice(0,1)
+        console.log(poles)
+      }
+    
+    }  
+    
+  }
+   if(poles[size.length - 1] != 0) {
+      console.log('not empty')
+    }
+}
+towerHanoi(3)
+
+// need 7 steps to complete 3 discs moving to position three
+
+
+// How would I represent the poles?
+
+// so 3 discs, do I put them in array and say the indice is their size value?
+```
