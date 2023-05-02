@@ -48,6 +48,8 @@ function addition(num) {
 addition(0)
 ```
 ### #4. Tower of Hanoi
+https://edabit.com/challenge/3ZtykTsx3GSoPHyBb
+solution(not solved yet)
 ```javascript
 function towerHanoi(discs) {
   // size of discs with 3 at the bottom
