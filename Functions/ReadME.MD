@@ -87,6 +87,4 @@ towerHanoi(3)
 
 
 // How would I represent the poles?
-
-// so 3 discs, do I put them in array and say the indice is their size value?
 ```
