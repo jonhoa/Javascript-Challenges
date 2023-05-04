@@ -82,9 +82,4 @@ console.log(poles)
     }
 }
 towerHanoi(3)
-
-// need 7 steps to complete 3 discs moving to position three
-
-
-// How would I represent the poles?
 ```
